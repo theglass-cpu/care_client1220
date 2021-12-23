@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:weightSum="1">
+
+              <TextView
+                  android:id="@+id/cl_id"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:layout_weight="1"
+                  android:background="#EAEAEA"
+                  android:fontFamily="@font/tway_air"
+                  android:text="cl_id"
+                  android:textSize="20dp" />
+
+
+      <ImageView
+          android:id="@+id/edit_bt"
+          android:layout_width="30dp"
+          android:layout_height="40dp"
+          android:layout_weight="1"
+          app:srcCompat="@drawable/point_edit_bt" />
+
+
+  </LinearLayout>
+    <TextView
+        android:id="@+id/cl_review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/tway_air"
+        android:text=" 리뷰내용 "/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right" >
+
+        <RatingBar
+            android:id="@+id/rating_average"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:isIndicator="true"
+            android:max="5"
+            android:numStars="5"
+            android:rating="3"
+            android:stepSize="0.5" />
+
+        <TextView
+            android:id="@+id/cl_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:gravity="right"
+            android:fontFamily="@font/tway_air"
+            android:text="날짜 "/>
+
+
+    </LinearLayout>
+</LinearLayout>

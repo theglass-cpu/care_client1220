@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mypage_change_Activity"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="회원정보 변경"
+        android:textSize="20dp"
+        android:fontFamily="@font/tway_air"
+        android:layout_margin="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="아이디"
+        android:textSize="20dp"
+        android:fontFamily="@font/tway_air"
+        android:layout_margin="20dp"
+        />
+
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="회원정보 변경"
+        android:textSize="20dp"
+        android:fontFamily="@font/tway_air"
+
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="현재 비밀번호"
+        android:textSize="20dp"
+        android:fontFamily="@font/tway_air"
+        android:layout_margin="20dp"
+        />
+
+
+    <EditText
+        android:id="@+id/pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="내용을 입력해주세요"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="새로운 비밀번호"
+        android:textSize="20dp"
+        android:fontFamily="@font/tway_air"
+        android:layout_margin="20dp"
+        />
+
+
+    <EditText
+        android:id="@+id/new_pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="내용을 입력해주세요"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="새로운 비밀번호재입력"
+        android:textSize="20dp"
+        android:fontFamily="@font/tway_air"
+        android:hint="내용을 입력해주세요"
+
+        android:layout_margin="20dp"
+        />
+    <EditText
+        android:id="@+id/new_pw2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="내용을 입력해주세요"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/result_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="확인"/>
+
+
+
+</LinearLayout>

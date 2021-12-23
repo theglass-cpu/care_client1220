@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4"
+    android:orientation="vertical"
+    tools:context=".caregiver_Request_Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/tway_air"
+        android:background="#FFEB3B"
+        android:padding="5dp"
+        android:textColor="#000000"
+        android:textSize="25dp"
+
+        android:text="간병인 유형"/>
+
+    <LinearLayout
+        android:id="@+id/day_care_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:padding="50dp"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="24시간 상주"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/tway_air"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="24시간 돌봐주실 분이 필요해요"
+            android:textSize="18dp"
+            android:fontFamily="@font/tway_air"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:padding="50dp"
+        android:id="@+id/time_care_bt"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="시간제 돌봄"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/tway_air"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="시간제로 돌봐주실 분이 필요해요"
+            android:textSize="18dp"
+            android:fontFamily="@font/tway_air"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="40dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="다음"
+        android:background="#FDEA44"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:id="@+id/cg_next_bt_1"
+        android:fontFamily="@font/tway_air"
+        />
+</LinearLayout>

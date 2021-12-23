@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/drawable/item_color.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/activity_address_api.xml" value="0.22" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/activity_care_giver_info.xml" value="0.33" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/activity_care_giver_review.xml" value="0.33" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/activity_caregiver.xml" value="0.22" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/activity_caregiver_request2.xml" value="0.22" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/activity_caregiver_request3.xml" value="0.33" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/activity_caregiver_request4.xml" value="0.33" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/activity_caregiver_request5.xml" value="0.25" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/activity_caregiver_request_detail.xml" value="0.33" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/activity_caregiver_request_list.xml" value="0.3536458333333333" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/activity_center_data_list.xml" value="0.22" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/activity_center_map.xml" value="0.33" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/activity_cl_chat_room.xml" value="0.25" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/activity_directions.xml" value="0.25" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/activity_find.xml" value="0.3536458333333333" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/activity_intro.xml" value="0.32019927536231885" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/activity_join.xml" value="0.33" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/activity_match_list.xml" value="0.25" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/activity_mypage.xml" value="0.33" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/activity_mypage_center_list.xml" value="0.25" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/activity_mypage_change.xml" value="0.3536458333333333" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/activity_request_list.xml" value="0.3494791666666667" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/activity_use_list.xml" value="0.28958333333333336" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/activity_view_df.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/bottom_sheet_layout.xml" value="0.33" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/center_item.xml" value="0.22" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/chat_msg_item.xml" value="0.3" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/client_request_item.xml" value="0.3494791666666667" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/comment_dialog_.xml" value="0.21" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/dial_log.xml" value="0.33" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/match_item.xml" value="0.3494791666666667" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/request_list_item.xml" value="0.25" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/review_dialog.xml" value="0.1697061803444782" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/review_item.xml" value="0.33" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/sss.xml" value="0.3494791666666667" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/use_item.xml" value="0.33" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/layout/view_info_window.xml" value="0.67" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/menu/menu.xml" value="0.22" />
+        <entry key="..\:/Users/rushx/AndroidStudioProjects/care_test01/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/rushx/AppData/Local/Android/Sdk/platforms/android-30/data/res/layout/simple_spinner_item.xml" value="0.25885416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

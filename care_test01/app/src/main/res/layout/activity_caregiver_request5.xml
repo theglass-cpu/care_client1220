@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".caregiver_Request_5_Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tway_air"
+        android:background="#FFEB3B"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:text="(목욕 세수 양치) 위생관리는 어떻게 하시나요?"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        >
+
+        <RadioButton
+            android:id="@+id/w_radio_bt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/tway_air"
+            android:textSize="20dp"
+            android:text="스스로 가능"/>
+
+        <RadioButton
+            android:id="@+id/w_radio_bt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/tway_air"
+            android:textSize="20dp"
+            android:text="전지적 도움이필요"/>
+
+
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/tway_air"
+
+        android:background="#FFEB3B"
+        android:text="식사는 어떻게 하시나요?"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        >
+
+        <RadioButton
+            android:id="@+id/radio_bt11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/tway_air"
+            android:textSize="20dp"
+            android:text="스스로 가능"/>
+
+        <RadioButton
+            android:id="@+id/radio_bt12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/tway_air"
+            android:textSize="20dp"
+            android:text="전지적 도움이필요 "/>
+
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/tway_air"
+        android:background="#FFEB3B"
+        android:text="이동은 어떻게 하시나요?"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        >
+
+        <RadioButton
+            android:id="@+id/radio_bt21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:fontFamily="@font/tway_air"
+            android:text="스스로 가능"/>
+
+        <RadioButton
+            android:id="@+id/radio_bt22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/tway_air"
+            android:textSize="20dp"
+            android:text="전지적 도움이필요"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/tway_air"
+        android:background="#FFEB3B"
+        android:layout_marginBottom="10dp"
+        android:text="기타 문의사항 및 \n어르신의 특이사항이 있으신가요?"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/remark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ex)치매진단"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/tway_air"
+        android:background="#FFEB3B"
+        android:text="제출이 완료되면 매칭된 간병인에게서\n답변이 옵니다."
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+
+
+    <Button
+        android:id="@+id/result_last_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundTint="#FFEB3B"
+        android:fontFamily="@font/tway_air"
+        android:textSize="20dp"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:text="제출"/>
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".join_Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="회원가입"
+        android:fontFamily="@font/tway_air"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:padding="30dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tway_air"
+        android:text="이메일을 입력하여주세요"
+        android:textColor="#555555"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/join_id"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tway_air"
+        android:textSize="20dp"
+        android:hint="ex)abc@naver.com"/>
+
+    <TextView
+        android:id="@+id/id_check_st"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text=""/>
+
+
+<!--    <Button-->
+<!--        android:id="@+id/id_check"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="중복체크"/>-->
+
+
+    <EditText
+        android:id="@+id/join_pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="비밀번호"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/join_pw2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="비밀번호 재확인"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/join_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tway_air"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:hint="휴대폰번호( - 없이 숫자만)"/>
+
+
+    <Button
+        android:id="@+id/login_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="#FFED51"
+        android:fontFamily="@font/tway_air"
+        android:text=" 가입하기 "
+        android:textSize="20dp" />
+
+</LinearLayout>

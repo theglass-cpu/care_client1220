@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".caregiver_Request_4_Activity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/tway_air"
+        android:background="#FFEB3B"
+        android:textColor="#000000"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:text="돌봄 받으실 곳의 주소를 입력해 주세요"/>
+
+    <ImageView
+        android:id="@+id/find_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/serch_bar" />
+
+    <TextView
+        android:id="@+id/address_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tway_air"
+        android:textSize="20dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="어르신의 성별을 선택해주세요"
+        android:fontFamily="@font/tway_air"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:background="#FFEB3B"
+        android:padding="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"/>
+
+    <RadioGroup
+        android:id="@+id/request_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+
+        <RadioButton
+            android:id="@+id/radio_bt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/tway_air"
+            android:textSize="20dp"
+            android:text="남"/>
+
+
+        <RadioButton
+            android:id="@+id/radio_bt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/tway_air"
+            android:textSize="20dp"
+            android:text="여"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="어르신의 출생년도를 입력해주세요"
+        android:fontFamily="@font/tway_air"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:background="#FFEB3B"
+        android:padding="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/age_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="ex)1964"/>
+
+    <Button
+        android:id="@+id/result_bt5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tway_air"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:background="#FFED52"
+        android:textColor="#000000"
+        android:padding="5dp"
+        android:text="다음"/>
+
+</LinearLayout>

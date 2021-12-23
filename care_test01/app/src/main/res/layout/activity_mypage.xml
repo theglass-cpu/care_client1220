@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mypage_Activity">
+
+    <ImageView
+        android:id="@+id/mypage_back_bt"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/arrow" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="회원정보"
+        android:fontFamily="@font/tway_air"
+        android:textSize="30dp"
+        android:layout_margin="30dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/request_list_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        >
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/todolist" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/tway_air"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="#FFEB3B"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:padding="15dp"
+            android:text="간병인 요청내역"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/mypage_id"
+        android:textSize="20dp"
+        android:fontFamily="@font/tway_air"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+    <Button
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:id="@+id/mypage_change_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tway_air"
+        android:text="회원정보 변경"
+        />
+
+
+    <Button
+
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:id="@+id/like_center_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tway_air"
+        android:text="찜 한 시설 목록"
+        />
+
+
+    <Button
+
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:id="@+id/caregiver_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tway_air"
+        android:text="간병인지원내역"
+        />
+
+    <Button
+
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:id="@+id/match_list_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tway_air"
+        android:text="매칭내역"
+        />
+
+
+
+    <Button
+
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:id="@+id/my_list_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tway_air"
+        android:text="이용내역"
+        />
+
+</LinearLayout>

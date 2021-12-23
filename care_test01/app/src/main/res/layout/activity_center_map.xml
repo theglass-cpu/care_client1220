@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".center_map_Activity">
+
+
+
+    <TextView
+        android:id="@+id/r_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="시설찾기"
+        android:textColor="#5E5E5E"
+        android:layout_gravity="center"
+        android:textSize="18dp"
+        android:fontFamily="@font/tway_air"
+        />
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/search_bt"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/serch_bar" />
+
+    </LinearLayout>
+
+
+    <fragment
+        android:id="@+id/n_map"
+        android:name="com.naver.maps.map.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.naver.maps.map.widget.LocationButtonView
+            android:id="@+id/n_location"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true" />
+
+
+        <Button
+            android:id="@+id/data_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="20dp"
+            android:backgroundTint="#9F9F9F"
+            android:fontFamily="@font/tway_air"
+            android:text="시설목록으로보기"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </fragment>
+
+</LinearLayout>

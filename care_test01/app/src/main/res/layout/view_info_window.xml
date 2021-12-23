@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_marginTop="3dp"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/centttt" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:hint="가게이름가게이름"
+                android:textColor="#232323"
+                android:ellipsize="end"/>
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textSize="11sp"
+        android:hint="가게번호가게위치번호"
+        android:textColor="#5A5A5A"
+        android:maxLines="3"/>
+
+    <TextView
+        android:id="@+id/tell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:hint=""
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textSize="11sp"
+        android:textColor="#5A5A5A"
+        android:maxLines="3"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

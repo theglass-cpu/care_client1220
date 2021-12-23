@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".cl_chat_room_Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginBottom="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/back_space"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/arrow" />
+
+
+        <TextView
+            android:id="@+id/chat_room_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/tway_air"
+            android:gravity="center"
+            android:text="누구와의채팅방"
+            android:textSize="20dp" />
+
+
+        <Button
+            android:id="@+id/match_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/tway_air"
+            android:text="매칭취소하기"
+            android:textSize="15dp"
+            app:backgroundTint="#CDCDCD" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cs_chat_recy"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/chat_msg_edit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/msg_send_bt"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/tway_air"
+            android:text="보내기"
+            android:textSize="20dp"
+            app:backgroundTint="#FFEB3B" />
+
+
+    </LinearLayout>
+
+<TextView
+    android:id="@+id/delite_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textSize="20dp"
+    android:fontFamily="@font/tway_air"/>
+
+</LinearLayout>
+

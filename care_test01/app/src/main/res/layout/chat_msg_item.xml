@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/msgLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="right">
+
+    <TextView
+        android:id="@+id/chat_user"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/tway_air"
+        />
+
+    <TextView
+        android:id="@+id/chat_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFED50"
+        android:fontFamily="@font/tway_air"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:text="안녕하세요" />
+    </LinearLayout>
+
+</LinearLayout>

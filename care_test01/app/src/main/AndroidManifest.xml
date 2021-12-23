@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.techtown.care_test01">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="andorid.permission.GET_TASKS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Care_test01"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <activity
+            android:name=".Client_request_list_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Use_list_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Care_giver_review_Activity"
+            android:exported="true" />
+
+        <service
+            android:name=".chat_bind_service"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".Client_Tcp_connetion_server"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".cl_chat_room_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".match_list_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".view_df_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".caregiver_info_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".caregiver_request_detail_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".caregiver_request_list_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".caregiver_Request_5_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".caregiver_Request_4_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".caregiver_Request_3_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".mypage_center_list_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".center_data_list_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".directions_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".center_map_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".caregiver_Request_2_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".caregiver_Request_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".mypage_change_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".mypage_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".find_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".AddressApiActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="tngowunxjk" />
+
+        <activity android:name=".join_Activity" />
+        <activity android:name=".login_Activity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".intro_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.kakao.sdk.auth.AuthCodeHandlerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <!-- Redirect URI: "kakao{NATIVE_APP_KEY}://oauth" -->
+                <data
+                    android:host="oauth"
+                    android:scheme="kakaod8c3c80190c8cfdda93a01b94cfccdcc" />
+            </intent-filter>
+        </activity>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Client_request_list_Activity">
+
+    <ImageView
+        android:id="@+id/list_back_bt"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/arrow" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tway_air"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        android:text="간병인 요청내역"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/client_request_recy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+</LinearLayout>

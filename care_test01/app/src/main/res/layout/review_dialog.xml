@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <RatingBar
+        android:id="@+id/write_review_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:isIndicator="false"
+        android:max="5"
+        android:numStars="5"
+        android:rating="3"
+        android:stepSize="0.5" />
+
+    <EditText
+        android:id="@+id/write_review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/result_review_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFEB3B"
+        android:fontFamily="@font/tway_air"
+        android:text="확인"
+        android:textSize="30dp" />
+
+
+
+</LinearLayout>
